@@ -15,6 +15,7 @@ Discord & Server with very low resources needs.
 Dependencies:
 - Composer
 
+
 ### Execution
 
 sudo apt-get update
