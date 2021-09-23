@@ -4,7 +4,7 @@ Discord PHP BOT for Star Wars Galaxies Emulator Servers.
 Discord & Server with very low resources needs.
 
 
-// Aeryna Kun [2021] \\
+// Aeryna Kun [2021] \\\
 ----------------------------
 
 ### Requirements for Linux
