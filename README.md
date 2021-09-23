@@ -3,9 +3,9 @@ Discord PHP BOT for Star Wars Galaxies Emulator Servers.
 * This Code adds a new SWG BOT (PHP based) to our
 Discord & Server with very low resources needs.
 
- Aeryna Kun [2021]
+   // Aeryna Kun [2021] \\
  
-----------------------------
+ ----------------------------
 
 ### Requirements for Linux
 
