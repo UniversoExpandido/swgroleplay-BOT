@@ -15,9 +15,12 @@ Discord & Server with very low resources needs.
 Dependencies:
 - Composer
 
-
-
 ### Execution
+
+sudo apt-get update
+sudo composer self-update
+composer require team-reflex/discord-php
+composer require team-reflex/discord-php dev-master
 
 php index.php
 
