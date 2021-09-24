@@ -23,7 +23,7 @@ $discord->on('ready', function ($discord) {
             $message->reply("Los Comandos disponibles son:\n
             !server -> Estado Actual del Servidor [Online u Offline].
             !swgroleplay -> Descubir página web de la Comunidad.
-            !meditar -> La piedra del Poder nos dará muy buenos consejos.
+            !meditar -> El Santuario de la Fuerza nos dará muy buenos consejos.
             !contacto -> Descubrir la cuenta de Contacto del Equipo SWGROLEPLAY.");
 
         } // Fin de !ayuda
