@@ -36,15 +36,13 @@ $discord->on('ready', function ($discord) {
             if ($fp=@fsockopen($ip,$puerto,$ERROR_NO,$ERROR_STR,(float)0.5))   
             {   
             fclose($fp); // Online
-
-             $imagen = "https://i.imgur.com/xOw6kxr.jpg";
-             $status = "The Server is:   " . $imagen;
+		    
+             $status = "https://i.imgur.com/xOw6kxr.jpg";
              $message->reply($status);
 
             } else { // Offline
 
-             $imagen = "https://i.imgur.com/H8SaeiW.jpg";
-             $status = "The Server is:   " . $imagen;
+             $status = "https://i.imgur.com/H8SaeiW.jpg";
              $message->reply($status);
             }
         } // Fin de !server
