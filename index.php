@@ -9,8 +9,8 @@ include __DIR__.'/vendor/autoload.php';
 use Discord\Discord;
 
 $discord = new Discord([
-    'token' => '', 	// Put in the middle of the '' your Discord Bot Token got from Discord DEV: https://discord.com/developers/
-]);
+    'token' => '', 	// Put your Discord Bot Token got from Discord DEV: https://discord.com/developers/ in the middle of the ''.
+
 
 $discord->on('ready', function ($discord) {
     echo "¡Bot está listo!";
@@ -26,7 +26,7 @@ $discord->on('ready', function ($discord) {
             !meditar -> El Santuario de la Fuerza nos dará muy buenos consejos.
             !contacto -> Descubrir la cuenta de Contacto del Equipo SWGROLEPLAY.");
 
-        } // Fin de !ayuda
+        } // !ayuda
 
         if (strtolower($message->content) == '!server' or strtolower($message->content) == '!servidor') {
 
@@ -45,12 +45,12 @@ $discord->on('ready', function ($discord) {
              $status = "https://i.imgur.com/H8SaeiW.jpg";
              $message->reply($status);
             }
-        } // Fin de !server
+        } // !server
 
 
         if (strtolower($message->content) == '!swgroleplay' or strtolower($message->content) == '!swgrp') {
             $message->reply('https://whatever.whatever');
-        } // Fin de !swgroleplay
+        } // !swgroleplay
 
         if (strtolower($message->content) == '!fuerza' or strtolower($message->content) == '!meditar') {
 
@@ -75,11 +75,11 @@ $discord->on('ready', function ($discord) {
             $todo=(count($mensajes)-1);
             $num=rand(0,$todo);
             $message->reply($mensajes[$num]);
-        } // Fin de !fuerza
+        } // !fuerza
 
         if (strtolower($message->content) == '!contacto') {
             $message->reply("Email:   whatever@whatever.whatever");
-        } // Fin de !contacto
+        } // !contacto
 
     });
 
