@@ -13,13 +13,13 @@ $discord = new Discord([
 
 
 $discord->on('ready', function ($discord) {
-    echo "¡Bot está listo!";
+    echo "¡BOT está listo!";
 
 
    $discord->on('MESSAGE_CREATE', function ($message, $discord) {
    
            if (strtolower($message->content) == '!ayuda' or strtolower($message->content) == '!comandos') {
-
+		// Commands
             $message->reply("Los Comandos disponibles son:\n
             !server -> Estado Actual del Servidor [Online u Offline].
             !swgroleplay -> Descubir página web de la Comunidad.
