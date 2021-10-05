@@ -82,6 +82,5 @@ $discord->on('ready', function ($discord) {
         } // !contacto
 
     });
-
 });
 $discord->run();
