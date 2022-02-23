@@ -11,12 +11,15 @@ Discord & Server with very low resources needs.
 
 - Minimum: PHP 7.4
 - Recomended: PHP 8.0
+- 
 
 Dependencies:
 - Composer
 
 
+
 ### Execution
+
 
 sudo apt update
 
