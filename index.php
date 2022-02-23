@@ -2,7 +2,7 @@
 /* PHP-Bot 1.04 created for the SWGROLEPLAY.COM Community
 or to use with other SWG servers if you like.
 
-				      /// Aeryna Kun [2021] \\\
+				      /// Aeryna Kun [2022] \\\
 */
 
 include __DIR__.'/vendor/autoload.php';
@@ -84,3 +84,4 @@ $discord->on('ready', function ($discord) {
     });
 });
 $discord->run();
+?>
