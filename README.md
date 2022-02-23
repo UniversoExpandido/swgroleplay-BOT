@@ -7,7 +7,7 @@ Discord & Server with very low resources needs.
  
  ----------------------------
 
-### Requirements for Linux
+### Requirements for Linux [Debian +9~11 Tested]
 
 - Minimum: PHP 7.4
 - Recomended: PHP 8.0
@@ -18,7 +18,8 @@ Dependencies:
 
 ### Execution
 
-sudo apt-get update
+sudo apt update
+sudo apt upgrade
 
 sudo composer self-update
 
