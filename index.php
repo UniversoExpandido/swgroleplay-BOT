@@ -1,6 +1,6 @@
 <?php
-/* PHP-Bot created for the SWGROLEPLAY.COM Community
-or to use with other SWG servers.
+/* PHP-Bot 1.04 created for the SWGROLEPLAY.COM Community
+or to use with other SWG servers if you like.
 
 				      /// Aeryna Kun [2021] \\\
 */
@@ -30,7 +30,7 @@ $discord->on('ready', function ($discord) {
 
         if (strtolower($message->content) == '!server' or strtolower($message->content) == '!servidor') {
 
-            $ip = 'Your IP or address'; // Server
+            $ip = 'Your IP or address'; // Server [Put your localhost if Bot is Host]
             $puerto = '44455'; // Port
 
             if ($fp=@fsockopen($ip,$puerto,$ERROR_NO,$ERROR_STR,(float)0.5))   
