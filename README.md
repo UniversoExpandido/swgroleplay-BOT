@@ -19,6 +19,7 @@ Dependencies:
 ### Execution
 
 sudo apt update
+
 sudo apt upgrade
 
 sudo composer self-update
