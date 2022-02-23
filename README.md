@@ -18,7 +18,7 @@ Dependencies:
 
 
 
-### Execution
+### Install
 
 
 sudo apt update
@@ -27,11 +27,13 @@ sudo apt upgrade
 
 sudo composer self-update
 
-
-
 composer require team-reflex/discord-php
 
 composer require team-reflex/discord-php dev-master
+
+
+
+### Execution
 
 php index.php
 
