@@ -23,6 +23,7 @@ sudo apt-get update
 sudo composer self-update
 
 composer require team-reflex/discord-php
+
 composer require team-reflex/discord-php dev-master
 
 php index.php
