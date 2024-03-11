@@ -14,7 +14,7 @@ $discord = new Discord([
 
 $discord->on('ready', function ($discord) {
     echo "¡BOT está listo!";
-
+});
 
    $discord->on('MESSAGE_CREATE', function ($message, $discord) {
    
@@ -80,8 +80,6 @@ $discord->on('ready', function ($discord) {
         if (strtolower($message->content) == '!contacto') {
             $message->reply("Email:   whatever@whatever.whatever");
         } // !contacto
-
-    });
 });
 $discord->run();
 ?>
