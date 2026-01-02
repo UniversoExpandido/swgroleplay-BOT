@@ -9,7 +9,7 @@ include __DIR__.'/vendor/autoload.php';
 use Discord\Discord;
 
 $discord = new Discord([
-    'token' => '', 	// Put your Discord Bot Token got from Discord DEV: https://discord.com/developers/ in the middle of the ''.
+    'token' => '', 	// Put your Discord Bot Token got from Discord DEV: https://discord.com/developers/
 
 
 $discord->on('ready', function ($discord) {
@@ -83,3 +83,4 @@ $discord->on('ready', function ($discord) {
 });
 $discord->run();
 ?>
+
