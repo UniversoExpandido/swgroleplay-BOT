@@ -9,6 +9,8 @@ or to use with other SWG servers if you like.
 Aeryna Kun (2025)
 */
 
+// https://discord-php.github.io/DiscordPHP/
+
 include __DIR__.'/vendor/autoload.php';
 use Discord\Discord;
 
@@ -90,4 +92,5 @@ $discord->on('MESSAGE_CREATE', function ($message, $discord) {
 $discord->run();
 
 ?>
+
 
